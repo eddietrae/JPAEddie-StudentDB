@@ -89,15 +89,15 @@ public class Main {
 	}
 	public static void main(String[] args) {
 		boolean goAgain = true;
-		System.out.println("--- Welcome to our awesome shopping list! ---");
+		System.out.println("Welcome!");
 		while (goAgain) {
-			System.out.println("*  Select an item:");
-			System.out.println("*  1 -- Add a student");
-			System.out.println("*  2 -- Edit a student");
-			System.out.println("*  3 -- Delete a student");
-			System.out.println("*  4 -- View the list of students");
-			System.out.println("*  5 -- Exit");
-			System.out.print("*  Your selection: ");
+			System.out.println("Select an item:");
+			System.out.println("1 -- Add a student");
+			System.out.println("2 -- Edit a student");
+			System.out.println("3 -- Delete a student");
+			System.out.println("4 -- View the list of students");
+			System.out.println("5 -- Exit");
+			System.out.print("Your selection: ");
 			int selection = in.nextInt();
 			in.nextLine();
 
